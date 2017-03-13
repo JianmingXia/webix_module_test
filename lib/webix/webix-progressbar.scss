@@ -1,0 +1,80 @@
+.webix_progress_bottom,.webix_progress_top {
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    height:6px;
+    overflow:hidden;
+    z-index:20;
+    background:#f2f2f2
+}
+.webix_progress_bottom {
+    bottom:0;
+    top:auto;
+    height:17px
+}
+.webix_progress_bottom .webix_progress_state,.webix_progress_top .webix_progress_state {
+    width:0;
+    height:6px;
+    background:#27ae60;
+    -moz-transition:width 3s;
+    transition:width 3s
+}
+.webix_progress_bottom .webix_progress_state {
+    height:17px
+}
+.webix_progress_icon {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:20
+}
+.webix_progress_icon .webix_progress_state {
+    font-family:'Microsoft YaHei',FontAwesome;
+    font-size:50px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-25px;
+    margin-top:-25px;
+    display:inline-block;
+    color:#b3b3b3
+}
+.icon-spin {
+    -webkit-animation:icon-spin 2s infinite linear;
+    animation:icon-spin 2s infinite linear
+}
+@-webkit-keyframes icon-spin {
+    0% {
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg)
+    }
+    100% {
+        -webkit-transform:rotate(359deg);
+        transform:rotate(359deg)
+    }
+}
+@keyframes icon-spin {
+    0% {
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg)
+    }
+    100% {
+        -webkit-transform:rotate(359deg);
+        transform:rotate(359deg)
+    }
+}
+.icon-refresh:before {
+    content: "\e619";
+}
+.webix_progress_bottom .webix_progress_state,.webix_progress_top .webix_progress_state {
+    background-image:linear-gradient(135deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent)
+}
+.webix_progress_top .webix_progress_state {
+    background-size:10px 10px
+}
+.webix_progress_bottom .webix_progress_state {
+    background-size:14px 14px
+}

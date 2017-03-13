@@ -1,0 +1,341 @@
+.webix_layout_toolbar {
+    color:#fff;
+    font-size:16px;
+    background:#3393e7;
+}
+.webix_layout_toolbar .webix_el_button,.webix_layout_toolbar .webix_el_label,.webix_layout_toolbar .webix_inp_label {
+    color:#fff
+}
+.webix_layout_toolbar .webix_el_label {
+    font-size:16px
+}
+.webix_layout_toolbar .webix_inp_counter_next,.webix_layout_toolbar .webix_inp_counter_prev,.webix_layout_toolbar .webix_segment_0,.webix_layout_toolbar .webix_segment_1,.webix_layout_toolbar .webix_segment_N,.webix_layout_toolbar .webixtype_base,.webix_layout_toolbar .webixtype_next,.webix_layout_toolbar .webixtype_prev {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#fff
+}
+.webix_layout_toolbar .webix_el_arrow.webixtype_next_arrow {
+    border-left:none;
+    border-bottom:none
+}
+.webix_layout_toolbar .webix_el_arrow.webixtype_prev_arrow {
+    border-right:none;
+    border-bottom:none
+}
+.webix_layout_toolbar .webix_inp_counter_next:hover,.webix_layout_toolbar .webix_inp_counter_prev:hover,.webix_layout_toolbar .webix_segment_0:hover,.webix_layout_toolbar .webix_segment_1:hover,.webix_layout_toolbar .webix_segment_N:hover,.webix_layout_toolbar .webixtype_base:hover {
+    color:#fff;
+    background-color:rgba(0,0,0,.05)
+}
+.webix_layout_toolbar .webix_inp_counter_next:active,.webix_layout_toolbar .webix_inp_counter_prev:active,.webix_layout_toolbar .webix_segment_0:active,.webix_layout_toolbar .webix_segment_1:active,.webix_layout_toolbar .webix_segment_N:active,.webix_layout_toolbar .webixtype_base:active {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar .webix_inp_counter_next:focus,.webix_layout_toolbar .webix_inp_counter_prev:focus,.webix_layout_toolbar .webix_segment_0:focus,.webix_layout_toolbar .webix_segment_1:focus,.webix_layout_toolbar .webix_segment_N:focus,.webix_layout_toolbar .webixtype_base:focus {
+    background-color:rgba(0,0,0,.07);
+    color:#fff
+}
+.webix_layout_toolbar .webix_inp_static,.webix_layout_toolbar input[type=text] {
+    border-color:#fff
+}
+.webix_layout_toolbar .webix_inp_static:focus,.webix_layout_toolbar input[type=text]:focus {
+    border-color:#fff;
+    box-shadow:none
+}
+.webix_layout_toolbar .webix_input_icon {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#666
+}
+.webix_layout_toolbar .webix_input_icon:active,.webix_layout_toolbar .webix_input_icon:focus,.webix_layout_toolbar .webix_input_icon:hover {
+    background-color:transparent;
+    color:#666
+}
+.webix_layout_toolbar .webix_pressed .webix_el_arrow,.webix_layout_toolbar .webix_pressed .webix_inp_counter_next,.webix_layout_toolbar .webix_pressed .webix_inp_counter_prev,.webix_layout_toolbar .webix_pressed .webix_input_icon,.webix_layout_toolbar .webix_pressed .webix_segment_0,.webix_layout_toolbar .webix_pressed .webix_segment_1,.webix_layout_toolbar .webix_pressed .webix_segment_N,.webix_layout_toolbar .webix_pressed .webixtype_base,.webix_layout_toolbar .webix_pressed .webixtype_next,.webix_layout_toolbar .webix_pressed .webixtype_prev {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar .webix_selected.webix_segment_0,.webix_layout_toolbar .webix_selected.webix_segment_1,.webix_layout_toolbar .webix_selected.webix_segment_N {
+    border-color:#d9d9d9;
+    background-color:#27ae60;
+    color:#fff
+}
+.webix_layout_toolbar .webix_selected.webix_segment_0:hover,.webix_layout_toolbar .webix_selected.webix_segment_1:hover,.webix_layout_toolbar .webix_selected.webix_segment_N:hover {
+    background-color:#24a259
+}
+.webix_layout_toolbar .webix_selected.webix_segment_0:active,.webix_layout_toolbar .webix_selected.webix_segment_0:focus,.webix_layout_toolbar .webix_selected.webix_segment_1:active,.webix_layout_toolbar .webix_selected.webix_segment_1:focus,.webix_layout_toolbar .webix_selected.webix_segment_N:active,.webix_layout_toolbar .webix_selected.webix_segment_N:focus {
+    background-color:#295
+}
+.webix_layout_toolbar .webix_segment_1,.webix_layout_toolbar .webix_segment_N,.webix_layout_toolbar .webix_selected.webix_segment_1,.webix_layout_toolbar .webix_selected.webix_segment_N {
+    margin-left:0;
+    border-left:none
+}
+.webix_layout_toolbar .webix_img_btn:active,.webix_layout_toolbar .webix_img_btn_top:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar .webix_img_btn:focus,.webix_layout_toolbar .webix_img_btn_top:focus {
+    background-color:#2489cc
+}
+.webix_layout_toolbar .webix_img_btn:hover,.webix_layout_toolbar .webix_img_btn_top:hover {
+    background-color:#268fd5
+}
+.webix_layout_toolbar .webix_icon_button {
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px
+}
+.webix_layout_toolbar .webix_el_icon,.webix_layout_toolbar .webix_icon_btn,.webix_layout_toolbar .webix_icon_button,.webix_layout_toolbar .webix_img_btn,.webix_layout_toolbar .webix_img_btn_abs,.webix_layout_toolbar .webix_img_btn_abs .webix_icon,.webix_layout_toolbar .webix_img_btn_abs .webix_img_btn_text,.webix_layout_toolbar .webix_img_btn_top .webix_icon,.webix_layout_toolbar .webix_img_btn_top .webix_img_btn_text {
+    color:#fff
+}
+.webix_layout_toolbar .webix_el_box .webix_img_btn_abs:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar .webix_el_icon .webix_icon_button:focus {
+    background-color:rgba(0,0,0,.07)
+}
+.webix_layout_toolbar .webix_el_box .webix_img_btn_abs:hover,.webix_layout_toolbar .webix_el_icon .webix_icon_button:hover {
+    background-color:rgba(0,0,0,.05)
+}
+.webix_layout_toolbar .webix_control {
+    border-color:#3393e7
+}
+.webix_layout_toolbar .webix_icon_button .webix_icon {
+    font-size:23px;
+    height:27px;
+    width:27px;
+    color:#fff
+}
+.webix_layout_toolbar .webix_img_btn,.webix_layout_toolbar .webix_img_btn_top {
+    border-width:0
+}
+.webix_toolbar.webix_layout_subbar {
+    color:#fff;
+    font-size:16px
+}
+.webix_toolbar.webix_layout_subbar .webix_el_button,.webix_toolbar.webix_layout_subbar .webix_el_label,.webix_toolbar.webix_layout_subbar .webix_inp_label {
+    color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_el_label {
+    font-size:16px
+}
+.webix_toolbar.webix_layout_subbar .webix_inp_counter_next,.webix_toolbar.webix_layout_subbar .webix_inp_counter_prev,.webix_toolbar.webix_layout_subbar .webix_segment_0,.webix_toolbar.webix_layout_subbar .webix_segment_1,.webix_toolbar.webix_layout_subbar .webix_segment_N,.webix_toolbar.webix_layout_subbar .webixtype_base,.webix_toolbar.webix_layout_subbar .webixtype_next,.webix_toolbar.webix_layout_subbar .webixtype_prev {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_el_arrow.webixtype_next_arrow {
+    border-left:none;
+    border-bottom:none
+}
+.webix_toolbar.webix_layout_subbar .webix_el_arrow.webixtype_prev_arrow {
+    border-right:none;
+    border-bottom:none
+}
+.webix_toolbar.webix_layout_subbar .webix_inp_counter_next:hover,.webix_toolbar.webix_layout_subbar .webix_inp_counter_prev:hover,.webix_toolbar.webix_layout_subbar .webix_segment_0:hover,.webix_toolbar.webix_layout_subbar .webix_segment_1:hover,.webix_toolbar.webix_layout_subbar .webix_segment_N:hover,.webix_toolbar.webix_layout_subbar .webixtype_base:hover {
+    color:#fff;
+    background-color:rgba(0,0,0,.05)
+}
+.webix_toolbar.webix_layout_subbar .webix_inp_counter_next:active,.webix_toolbar.webix_layout_subbar .webix_inp_counter_prev:active,.webix_toolbar.webix_layout_subbar .webix_segment_0:active,.webix_toolbar.webix_layout_subbar .webix_segment_1:active,.webix_toolbar.webix_layout_subbar .webix_segment_N:active,.webix_toolbar.webix_layout_subbar .webixtype_base:active {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_toolbar.webix_layout_subbar .webix_inp_counter_next:focus,.webix_toolbar.webix_layout_subbar .webix_inp_counter_prev:focus,.webix_toolbar.webix_layout_subbar .webix_segment_0:focus,.webix_toolbar.webix_layout_subbar .webix_segment_1:focus,.webix_toolbar.webix_layout_subbar .webix_segment_N:focus,.webix_toolbar.webix_layout_subbar .webixtype_base:focus {
+    background-color:rgba(0,0,0,.07);
+    color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_inp_static,.webix_toolbar.webix_layout_subbar input[type=text] {
+    border-color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_inp_static:focus,.webix_toolbar.webix_layout_subbar input[type=text]:focus {
+    border-color:#fff;
+    box-shadow:none
+}
+.webix_toolbar.webix_layout_subbar .webix_input_icon {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#666
+}
+.webix_toolbar.webix_layout_subbar .webix_input_icon:active,.webix_toolbar.webix_layout_subbar .webix_input_icon:focus,.webix_toolbar.webix_layout_subbar .webix_input_icon:hover {
+    background-color:transparent;
+    color:#666
+}
+.webix_toolbar.webix_layout_subbar .webix_pressed .webix_el_arrow,.webix_toolbar.webix_layout_subbar .webix_pressed .webix_inp_counter_next,.webix_toolbar.webix_layout_subbar .webix_pressed .webix_inp_counter_prev,.webix_toolbar.webix_layout_subbar .webix_pressed .webix_input_icon,.webix_toolbar.webix_layout_subbar .webix_pressed .webix_segment_0,.webix_toolbar.webix_layout_subbar .webix_pressed .webix_segment_1,.webix_toolbar.webix_layout_subbar .webix_pressed .webix_segment_N,.webix_toolbar.webix_layout_subbar .webix_pressed .webixtype_base,.webix_toolbar.webix_layout_subbar .webix_pressed .webixtype_next,.webix_toolbar.webix_layout_subbar .webix_pressed .webixtype_prev {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_0,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_1,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_N {
+    border-color:#d9d9d9;
+    background-color:#27ae60;
+    color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_0:hover,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_1:hover,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_N:hover {
+    background-color:#24a259
+}
+.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_0:active,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_0:focus,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_1:active,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_1:focus,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_N:active,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_N:focus {
+    background-color:#295
+}
+.webix_toolbar.webix_layout_subbar .webix_segment_1,.webix_toolbar.webix_layout_subbar .webix_segment_N,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_1,.webix_toolbar.webix_layout_subbar .webix_selected.webix_segment_N {
+    margin-left:0;
+    border-left:none
+}
+.webix_toolbar.webix_layout_subbar .webix_img_btn:active,.webix_toolbar.webix_layout_subbar .webix_img_btn_top:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_toolbar.webix_layout_subbar .webix_img_btn:focus,.webix_toolbar.webix_layout_subbar .webix_img_btn_top:focus {
+    background-color:#2489cc
+}
+.webix_toolbar.webix_layout_subbar .webix_img_btn:hover,.webix_toolbar.webix_layout_subbar .webix_img_btn_top:hover {
+    background-color:#268fd5
+}
+.webix_toolbar.webix_layout_subbar .webix_icon_button {
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px
+}
+.webix_toolbar.webix_layout_subbar .webix_el_icon,.webix_toolbar.webix_layout_subbar .webix_icon_btn,.webix_toolbar.webix_layout_subbar .webix_icon_button,.webix_toolbar.webix_layout_subbar .webix_img_btn,.webix_toolbar.webix_layout_subbar .webix_img_btn_abs,.webix_toolbar.webix_layout_subbar .webix_img_btn_abs .webix_icon,.webix_toolbar.webix_layout_subbar .webix_img_btn_abs .webix_img_btn_text,.webix_toolbar.webix_layout_subbar .webix_img_btn_top .webix_icon,.webix_toolbar.webix_layout_subbar .webix_img_btn_top .webix_img_btn_text {
+    color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_el_box .webix_img_btn_abs:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_toolbar.webix_layout_subbar .webix_el_icon .webix_icon_button:focus {
+    background-color:rgba(0,0,0,.07)
+}
+.webix_toolbar.webix_layout_subbar .webix_el_box .webix_img_btn_abs:hover,.webix_toolbar.webix_layout_subbar .webix_el_icon .webix_icon_button:hover {
+    background-color:rgba(0,0,0,.05)
+}
+.webix_toolbar.webix_layout_subbar .webix_control {
+    border-color:#3393e7
+}
+.webix_toolbar.webix_layout_subbar .webix_icon_button .webix_icon {
+    font-size:23px;
+    height:27px;
+    width:27px;
+    color:#fff
+}
+.webix_toolbar.webix_layout_subbar .webix_img_btn,.webix_toolbar.webix_layout_subbar .webix_img_btn_top {
+    border-width:0
+}
+.webix_toolbar .webix_layout_clean,.webix_toolbar .webix_layout_line,.webix_toolbar .webix_layout_toolbar {
+    background:0 0
+}
+.webix_layout_toolbar.webix_toolbar {
+    color:#fff;
+    font-size:16px;
+    background:#3393e7
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_button,.webix_layout_toolbar.webix_toolbar .webix_el_label,.webix_layout_toolbar.webix_toolbar .webix_inp_label {
+    color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_label {
+    font-size:16px
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_counter_next,.webix_layout_toolbar.webix_toolbar .webix_inp_counter_prev,.webix_layout_toolbar.webix_toolbar .webix_segment_0,.webix_layout_toolbar.webix_toolbar .webix_segment_1,.webix_layout_toolbar.webix_toolbar .webix_segment_N,.webix_layout_toolbar.webix_toolbar .webixtype_base,.webix_layout_toolbar.webix_toolbar .webixtype_next,.webix_layout_toolbar.webix_toolbar .webixtype_prev {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_arrow.webixtype_next_arrow {
+    border-left:none;
+    border-bottom:none
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_arrow.webixtype_prev_arrow {
+    border-right:none;
+    border-bottom:none
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_counter_next:hover,.webix_layout_toolbar.webix_toolbar .webix_inp_counter_prev:hover,.webix_layout_toolbar.webix_toolbar .webix_segment_0:hover,.webix_layout_toolbar.webix_toolbar .webix_segment_1:hover,.webix_layout_toolbar.webix_toolbar .webix_segment_N:hover,.webix_layout_toolbar.webix_toolbar .webixtype_base:hover {
+    color:#fff;
+    background-color:rgba(0,0,0,.05)
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_counter_next:active,.webix_layout_toolbar.webix_toolbar .webix_inp_counter_prev:active,.webix_layout_toolbar.webix_toolbar .webix_segment_0:active,.webix_layout_toolbar.webix_toolbar .webix_segment_1:active,.webix_layout_toolbar.webix_toolbar .webix_segment_N:active,.webix_layout_toolbar.webix_toolbar .webixtype_base:active {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_counter_next:focus,.webix_layout_toolbar.webix_toolbar .webix_inp_counter_prev:focus,.webix_layout_toolbar.webix_toolbar .webix_segment_0:focus,.webix_layout_toolbar.webix_toolbar .webix_segment_1:focus,.webix_layout_toolbar.webix_toolbar .webix_segment_N:focus,.webix_layout_toolbar.webix_toolbar .webixtype_base:focus {
+    background-color:rgba(0,0,0,.07);
+    color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_static,.webix_layout_toolbar.webix_toolbar input[type=text] {
+    border-color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_inp_static:focus,.webix_layout_toolbar.webix_toolbar input[type=text]:focus {
+    border-color:#fff;
+    box-shadow:none
+}
+.webix_layout_toolbar.webix_toolbar .webix_input_icon {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#666
+}
+.webix_layout_toolbar.webix_toolbar .webix_input_icon:active,.webix_layout_toolbar.webix_toolbar .webix_input_icon:focus,.webix_layout_toolbar.webix_toolbar .webix_input_icon:hover {
+    background-color:transparent;
+    color:#666
+}
+.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_el_arrow,.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_inp_counter_next,.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_inp_counter_prev,.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_input_icon,.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_segment_0,.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_segment_1,.webix_layout_toolbar.webix_toolbar .webix_pressed .webix_segment_N,.webix_layout_toolbar.webix_toolbar .webix_pressed .webixtype_base,.webix_layout_toolbar.webix_toolbar .webix_pressed .webixtype_next,.webix_layout_toolbar.webix_toolbar .webix_pressed .webixtype_prev {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_0,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_1,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_N {
+    border-color:#d9d9d9;
+    background-color:#27ae60;
+    color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_0:hover,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_1:hover,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_N:hover {
+    background-color:#24a259
+}
+.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_0:active,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_0:focus,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_1:active,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_1:focus,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_N:active,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_N:focus {
+    background-color:#295
+}
+.webix_layout_toolbar.webix_toolbar .webix_segment_1,.webix_layout_toolbar.webix_toolbar .webix_segment_N,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_1,.webix_layout_toolbar.webix_toolbar .webix_selected.webix_segment_N {
+    margin-left:0;
+    border-left:none
+}
+.webix_layout_toolbar.webix_toolbar .webix_img_btn:active,.webix_layout_toolbar.webix_toolbar .webix_img_btn_top:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar.webix_toolbar .webix_img_btn:focus,.webix_layout_toolbar.webix_toolbar .webix_img_btn_top:focus {
+    background-color:#2489cc
+}
+.webix_layout_toolbar.webix_toolbar .webix_img_btn:hover,.webix_layout_toolbar.webix_toolbar .webix_img_btn_top:hover {
+    background-color:#268fd5
+}
+.webix_layout_toolbar.webix_toolbar .webix_icon_button {
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_icon,.webix_layout_toolbar.webix_toolbar .webix_icon_btn,.webix_layout_toolbar.webix_toolbar .webix_icon_button,.webix_layout_toolbar.webix_toolbar .webix_img_btn,.webix_layout_toolbar.webix_toolbar .webix_img_btn_abs,.webix_layout_toolbar.webix_toolbar .webix_img_btn_abs .webix_icon,.webix_layout_toolbar.webix_toolbar .webix_img_btn_abs .webix_img_btn_text,.webix_layout_toolbar.webix_toolbar .webix_img_btn_top .webix_icon,.webix_layout_toolbar.webix_toolbar .webix_img_btn_top .webix_img_btn_text {
+    color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_box .webix_img_btn_abs:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_icon .webix_icon_button:focus {
+    background-color:rgba(0,0,0,.07)
+}
+.webix_layout_toolbar.webix_toolbar .webix_el_box .webix_img_btn_abs:hover,.webix_layout_toolbar.webix_toolbar .webix_el_icon .webix_icon_button:hover {
+    background-color:rgba(0,0,0,.05)
+}
+.webix_layout_toolbar.webix_toolbar .webix_control {
+    border-color:#3393e7
+}
+.webix_layout_toolbar.webix_toolbar .webix_icon_button .webix_icon {
+    font-size:23px;
+    height:27px;
+    width:27px;
+    color:#fff
+}
+.webix_layout_toolbar.webix_toolbar .webix_img_btn,.webix_layout_toolbar.webix_toolbar .webix_img_btn_top {
+    border-width:0
+}

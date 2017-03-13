@@ -1,0 +1,103 @@
+.webix_el_tabbar {
+    background:0 0
+}
+.webix_all_tabs {
+    height:100%;
+    display:table
+}
+.webix_tab_filler {
+    display:table-cell;
+    background:0 0;
+    font-size:1px;
+    border-bottom:1px solid #ddd;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+.webix_item_tab:first-child {
+    border-left:1px solid #ddd
+}
+.webix_item_tab {
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    overflow:hidden;
+    cursor:pointer;
+    border:1px solid #ddd;
+    border-left-width:0;
+    background:#a4b4bf;
+    color:#fff;
+    -webkit-border-radius:4px 4px 0 0;
+    -moz-border-radius-topleft:4px;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-topright:4px;
+    -moz-border-radius-bottomright:0;
+    border-radius:4px 4px 0 0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+.webixtype_bottom .webix_item_tab {
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0
+}
+.webix_item_tab.webix_selected {
+    border-bottom-width:0;
+    background:#3498db;
+    color:#fff;
+    border-color:#3498db
+}
+.webixtype_bottom .webix_item_tab.webix_selected {
+    border-bottom-width:1px
+}
+.webix_before_all_tabs {
+    width:100%
+}
+.webix_after_all_tabs {
+    width:100%;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+.webix_view.webix_control .webix_disabled_box .webix_item_tab {
+    color:#aaa;
+    background:#e9e9e9;
+    border:1px solid #e9e9e9;
+    text-shadow:none
+}
+.webix_el_tabbar .webixtype_icon .webix_img_btn_top,.webix_el_tabbar .webixtype_iconTop .webix_img_btn_top,.webix_el_tabbar .webixtype_image .webix_img_btn_top {
+    background-position:center 0;
+    position:relative;
+    height:100%
+}
+.webix_tab_more_icon {
+    cursor:pointer;
+    display:table-cell;
+    overflow:hidden;
+    text-align:center;
+    box-sizing:border-box;
+    vertical-align:middle;
+    padding:0 3px
+}
+.webix_tab_more_icon .webix_icon {
+    width:100%
+}
+.webix_tab_list .webix_list_item:last-child {
+    border-bottom:none
+}
+.webix_icon.webix_tab_close {
+    font-size:12px;
+    float:right;
+    padding:4px;
+    margin-top:-4px
+}
+.webix_all_tabs {
+    padding-left:1px;
+    padding-right:1px
+}
+.webix_after_all_tabs {
+    background:#3498db
+}

@@ -1,0 +1,33 @@
+.webix_icon {
+	font-size:17px;
+	display:inline-block;
+	width:20px
+}
+.webix_icon_button {
+	background-color:transparent;
+	border:none;
+	padding:0;
+	cursor:pointer;
+	position:relative
+}
+.webix_icon_button .webix_icon {
+	font-size:20px;
+	height:23px;
+	width:21px;
+	display:inline-block;
+	text-align:center;
+	color:#606060
+}
+.webix_el_icon {
+	cursor:pointer
+}
+.icon-cog:before,.icon-gear:before {
+	content:"\f013"
+}
+.icon-times-circle:before {
+	content:"\f057"
+}
+
+.icon-envelope:before {
+	content:"\f0e0"
+}

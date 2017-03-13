@@ -1,0 +1,37 @@
+.webix_dataview_item {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:2px 10px;
+    line-height:29px;
+    cursor:pointer;
+    border-bottom:1px solid #efefef;
+    text-align:left;
+    border-color:#efefef;
+    border-right:1px solid #efefef
+}
+.webix_dataview_disabled_item {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:2px 10px;
+    line-height:29px;
+    cursor:default;
+    border-bottom:1px solid #efefef;
+    text-align:left;
+    border-color:#efefef;
+    border-right:1px solid #efefef;
+}
+.webix_dataview_item.webix_selected {
+    color:#fff;
+    background:#27ae60;
+    border-bottom:1px solid #efefef;
+    border-right:1px solid #efefef;
+}
+.webix_dataview_item {
+    border-right-color:#efefef;
+}
+.webix_strong {
+    font-weight:700;
+    white-space:nowrap
+}

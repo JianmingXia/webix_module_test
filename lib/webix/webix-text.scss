@@ -1,0 +1,65 @@
+.webix_el_text input {
+    height:100%;
+    padding:0 10px;
+    border:1px solid #ddd;
+    color:#666;
+    font-size:14px;
+    background:#fff;
+    font-family:'Microsoft YaHei','PT Sans',Tahoma;
+    border-color:#ccc;
+    -webkit-appearance:none;
+    padding-top:4px\0
+}
+.webix_el_text input {
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px
+}
+.webix_el_text input:focus {
+    border:1px solid #3498db;
+    box-shadow:0 0 1px #3498db inset
+}
+.webix_inp_label {
+    color:#666;
+    text-transform:none;
+    font-size:14px
+}
+.webix_inp_label {
+    float:left;
+    padding-top:1px;
+    padding-left:3px;
+    padding-right:7.5px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap
+}
+.webix_el_box {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:3px 2px;
+    height:100%;
+    width:100%;
+    font-size:14px;
+    overflow:hidden
+}
+.webix_input_icon {
+    display:inline-block;
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0,0)
+}
+.webix_input_icon {
+    font-size:17px;
+    display:inline-block;
+    width:20px
+}
+.webix_input_icon {
+    float:right;
+    font-size:19px;
+    color:#888
+}

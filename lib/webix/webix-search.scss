@@ -1,0 +1,87 @@
+.webix_el_box
+{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:3px 2px;
+    height:100%;
+    width:100%;
+    font-size:14px;
+    overflow:hidden
+}
+
+.webix_el_search input
+{
+    height:100%;
+    padding:0 10px;
+    border:1px solid #ddd;
+    color:#666;
+    font-size:14px;
+    background:#fff;
+    font-family:'Microsoft YaHei','PT Sans',Tahoma;
+    border-color:#ccc;
+    -webkit-appearance:none;
+    padding-top:4px\0
+}
+
+.webix_el_search
+{
+    font-size:14px
+}
+
+.webix_el_search span.webix_input_icon
+{
+    width:24px
+}
+
+.webix_el_search .webix_el_box
+{
+    color:#666;
+    position:relative
+}
+
+.webix_el_search .webix_input_icon
+{
+    right:2px;
+    background:0 0;
+    z-index:1;
+    position:absolute
+}
+
+.webix_el_search .webix_input_icon
+{
+    padding-left:5px;
+    width:21px
+}
+
+.webix_el_search span
+{
+    position:absolute;
+    right:19px;
+    cursor:pointer;
+    padding-left:7px
+}
+
+.webix_el_search input
+{
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px
+}
+
+.icon-search:before
+{
+    content:"\e659";
+    color:#3B98E8;
+    font-size:25px;
+}
+
+.icon-search{
+    margin-right:8px;
+
+}
+
+.webix_el_search input:focus {
+    border:1px solid #3393E7;
+    box-shadow:0 0 1px #3393E7 inset;
+}

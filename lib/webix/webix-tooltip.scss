@@ -1,0 +1,20 @@
+.webix_tooltip {
+    display:none;
+    position:absolute;
+    z-index:10000;
+    background-color:#fff;
+    padding:5px 10px;
+    border:1px solid #ddd;
+    font-family:'Microsoft YaHei','PT Sans',Tahoma;
+    font-size:14px;
+    color:#666;
+    border-radius:3px;
+    box-shadow:1px 1px 0 0 #CCC
+}
+.webix_tooltip table {
+    border-collapse:collapse;
+}
+.webix_tooltip table td,.webix_tooltip table th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}

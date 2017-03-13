@@ -1,0 +1,64 @@
+.webix_inp_static {
+    border:1px solid #ddd;
+    background:#fff;
+    overflow:hidden;
+    padding:0 10px;
+    height:100%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    float:left
+}
+.webix_el_richselect {
+    font-size:14px
+}
+.webix_el_richselect .webix_el_box {
+    color:#666;
+    position:relative
+}
+.webix_el_richselect .webix_inp_static,.webix_el_richselect input {
+    color:#666;
+    padding-right:24px;
+    background:#fff;
+    font-family:'Microsoft YaHei','PT Sans',Tahoma;
+    border-color:#ccc;
+    -webkit-appearance:none;
+    padding-top: 2px;
+}
+.webix_el_richselect .webix_input_icon {
+    right:2px;
+    background:0 0;
+    z-index:1;
+    position:absolute
+}
+.webix_el_richselect .webix_input_icon {
+    padding-left:7px;
+    width:19px
+}
+.icon-angle-down:before {
+    content: "\e618";
+}
+.webix_el_richselect span.webix_input_icon {
+    color:#fff;
+    -webkit-border-radius:0 6px 6px 0;
+    -moz-border-radius-topleft:0;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-topright:6px;
+    -moz-border-radius-bottomright:6px;
+    border-radius:0 6px 6px 0
+}
+.webix_el_richselect .webix_inp_static {
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    padding-right:28px;
+    white-space:nowrap
+}
+.webix_el_richselect .webix_inp_static:focus {
+    border:1px solid #3498db;
+    box-shadow:0 0 1px #3498db inset
+}
+.webix_el_richselect span.webix_input_icon {
+    width:21px;
+    padding-left:8px
+}

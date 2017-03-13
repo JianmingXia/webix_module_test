@@ -1,0 +1,21 @@
+.webix_context_separator_x {
+    height: 3px;
+    padding: 1px 3px 0;
+}
+
+.webix_context_separator_x .line {
+    height: 1px;
+    border-top: 1px solid #EDEDED;
+}
+
+.webix_context_separator_y {
+    width: 3px;
+    padding: 1px 1px 0 0;
+    height:100%;
+}
+
+.webix_context_separator_y .line {
+    width: 1px;
+    border-left: 1px solid #EDEDED;
+    height:100%;
+}

@@ -1,0 +1,51 @@
+.webix_el_checkbox .webix_label_right {
+	display:inline-block;
+	padding-top:0px
+}
+.webix_el_group {
+	height: 100%;
+	white-space: nowrap;
+}
+.webix_el_checkbox input {
+	margin:0;
+	padding:0;
+	float:left
+}
+.webix_custom_checkbox,.webix_custom_radio {
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+.webix_el_checkbox input {
+	border-color:#ddd
+}
+.webix_checkbox_1 .webix_custom_checkbox:before {
+	content:"\e616";
+	color:#3498db;
+	font-family:iconfont;
+	font-size:16px;
+	height:14px;
+	display:block;
+	line-height:13px;
+	width:14px
+}
+.webix_custom_checkbox {
+	float:left;
+	position:relative;
+	top:50%;
+	margin-top:-7px;
+	padding:0;
+	height:15px;
+	width:15px;
+	border:1px solid #ccc;
+	border-radius:3px;
+	background-color:#fff
+}
+.webix_custom_checkbox:focus {
+	border-color:#3498db
+}
+a:active .webix_custom_checkbox,a:focus .webix_custom_checkbox {
+	border:1px solid #3498db;
+	box-shadow:0 0 1px #3498db inset
+}

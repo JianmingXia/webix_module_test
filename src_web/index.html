@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>quqi</title>
+
+<style>
+html,body,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,input,textarea,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+body
+{
+	height:100%;
+}
+</style>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="spreadjs culture" content="zh-cn" /><!-- spread js汉化 -->
+    <link rel="shortcut icon" href="{%= o.htmlWebpackPlugin.options.faviconPath %}">
+    {% for (var chunk in o.htmlWebpackPlugin.files.css) { %}
+    <link rel="stylesheet" type="text/css" href="{%= o.htmlWebpackPlugin.files.css[chunk] %}">
+    {% } %}
+</head>
+
+<body>
+{% for (var chunk in o.htmlWebpackPlugin.files.js) { %}
+<script src="{%= o.htmlWebpackPlugin.files.js[chunk] %}"></script>
+{% } %}
+</body>
+</html>

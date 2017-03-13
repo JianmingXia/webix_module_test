@@ -1,0 +1,75 @@
+.webix_all_segments {
+    height:100%;
+    white-space:nowrap
+}
+.webix_segment_0,.webix_segment_1 {
+    height:100%
+}
+.webix_segment_0 {
+    -webkit-border-radius:6px 0 0 6px;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-bottomleft:6px;
+    -moz-border-radius-topright:0;
+    -moz-border-radius-bottomright:0;
+    border-radius:6px 0 0 6px
+}
+.webix_segment_N {
+    height:100%;
+    -webkit-border-radius:0 6px 6px 0;
+    -moz-border-radius-topleft:0;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-topright:6px;
+    -moz-border-radius-bottomright:6px;
+    border-radius:0 6px 6px 0
+}
+.webix_segment_N:first-child {
+    -webkit-border-radius:6px;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-bottomleft:6px;
+    -moz-border-radius-topright:6px;
+    -moz-border-radius-bottomright:6px;
+    border-radius:6px
+}
+.webix_segment_0,.webix_segment_1,.webix_segment_N {
+    -webkit-appearance:none;
+    background:#3498db;
+    color:#fff;
+    font-size:14px;
+    font-family:'Microsoft YaHei','PT Sans',Tahoma;
+    border:1px solid #3498db;
+    border-bottom:1px solid #268fd5;
+    outline:0;
+    cursor:pointer;
+    padding:0
+}
+.webix_segment_0.webix_selected,.webix_segment_1.webix_selected,.webix_segment_N.webix_selected {
+    color:#fff;
+    background:#27ae60;
+    border-color:#27ae60
+}
+.webix_view.webix_control .webix_disabled_box .webix_segment_1,.webix_view.webix_control .webix_disabled_box .webix_segment_N {
+    color:#aaa;
+    background:#e9e9e9;
+    border:1px solid #e9e9e9;
+    text-shadow:none
+}
+.webix_segment_0:hover,.webix_segment_1:hover,.webix_segment_N:hover {
+    background-color:#268fd5
+}
+.webix_segment_0:active,.webix_segment_1:active,.webix_segment_N:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_segment_0:focus,.webix_segment_1:focus,.webix_segment_N:focus {
+    background-color:#2489cc
+}
+.webix_selected.webix_segment_0:hover,.webix_selected.webix_segment_1:hover,.webix_selected.webix_segment_N:hover {
+    background-color:#239d57
+}
+.webix_selected.webix_segment_0:active,.webix_selected.webix_segment_0:focus,.webix_selected.webix_segment_1:active,.webix_selected.webix_segment_1:focus,.webix_selected.webix_segment_N:active,.webix_selected.webix_segment_N:focus {
+    background-color:#219552
+}
+.webix_all_segments .webix_segment_1,.webix_all_segments .webix_segment_N {
+    margin-left:1px;
+    border-left:none
+}

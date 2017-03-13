@@ -1,0 +1,118 @@
+.webix_header>div {
+    padding-left:10px;
+    color:#fff;
+    font-size:18px;
+    background:#3498db;
+    line-height:43px;
+    line-height:45px;
+    padding-top:0;
+    padding-bottom:0
+}
+.webix_header>div .webix_el_button,.webix_header>div .webix_el_label,.webix_header>div .webix_inp_label {
+    color:#fff
+}
+.webix_header>div .webix_el_label {
+    font-size:18px
+}
+.webix_header>div .webix_inp_counter_next,.webix_header>div .webix_inp_counter_prev,.webix_header>div .webix_segment_0,.webix_header>div .webix_segment_1,.webix_header>div .webix_segment_N,.webix_header>div .webixtype_base,.webix_header>div .webixtype_next,.webix_header>div .webixtype_prev {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#fff
+}
+.webix_header>div .webix_el_arrow.webixtype_next_arrow {
+    border-left:none;
+    border-bottom:none
+}
+.webix_header>div .webix_el_arrow.webixtype_prev_arrow {
+    border-right:none;
+    border-bottom:none
+}
+.webix_header>div .webix_inp_counter_next:hover,.webix_header>div .webix_inp_counter_prev:hover,.webix_header>div .webix_segment_0:hover,.webix_header>div .webix_segment_1:hover,.webix_header>div .webix_segment_N:hover,.webix_header>div .webixtype_base:hover {
+    color:#fff;
+    background-color:rgba(0,0,0,.05)
+}
+.webix_header>div .webix_inp_counter_next:active,.webix_header>div .webix_inp_counter_prev:active,.webix_header>div .webix_segment_0:active,.webix_header>div .webix_segment_1:active,.webix_header>div .webix_segment_N:active,.webix_header>div .webixtype_base:active {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_header>div .webix_inp_counter_next:focus,.webix_header>div .webix_inp_counter_prev:focus,.webix_header>div .webix_segment_0:focus,.webix_header>div .webix_segment_1:focus,.webix_header>div .webix_segment_N:focus,.webix_header>div .webixtype_base:focus {
+    background-color:rgba(0,0,0,.07);
+    color:#fff
+}
+.webix_header>div .webix_inp_static,.webix_header>div input[type=text] {
+    border-color:#fff
+}
+.webix_header>div .webix_inp_static:focus,.webix_header>div input[type=text]:focus {
+    border-color:#fff;
+    box-shadow:none
+}
+.webix_header>div .webix_input_icon {
+    border-color:#d9d9d9;
+    background-color:transparent;
+    color:#666
+}
+.webix_header>div .webix_input_icon:active,.webix_header>div .webix_input_icon:focus,.webix_header>div .webix_input_icon:hover {
+    background-color:transparent;
+    color:#666
+}
+.webix_header>div .webix_pressed .webix_el_arrow,.webix_header>div .webix_pressed .webix_inp_counter_next,.webix_header>div .webix_pressed .webix_inp_counter_prev,.webix_header>div .webix_pressed .webix_input_icon,.webix_header>div .webix_pressed .webix_segment_0,.webix_header>div .webix_pressed .webix_segment_1,.webix_header>div .webix_pressed .webix_segment_N,.webix_header>div .webix_pressed .webixtype_base,.webix_header>div .webix_pressed .webixtype_next,.webix_header>div .webix_pressed .webixtype_prev {
+    background-color:rgba(0,0,0,.07);
+    color:#fff;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_header>div .webix_selected.webix_segment_0,.webix_header>div .webix_selected.webix_segment_1,.webix_header>div .webix_selected.webix_segment_N {
+    border-color:#d9d9d9;
+    background-color:#27ae60;
+    color:#fff
+}
+.webix_header>div .webix_selected.webix_segment_0:hover,.webix_header>div .webix_selected.webix_segment_1:hover,.webix_header>div .webix_selected.webix_segment_N:hover {
+    background-color:#24a259
+}
+.webix_header>div .webix_selected.webix_segment_0:active,.webix_header>div .webix_selected.webix_segment_0:focus,.webix_header>div .webix_selected.webix_segment_1:active,.webix_header>div .webix_selected.webix_segment_1:focus,.webix_header>div .webix_selected.webix_segment_N:active,.webix_header>div .webix_selected.webix_segment_N:focus {
+    background-color:#295
+}
+.webix_header>div .webix_segment_1,.webix_header>div .webix_segment_N,.webix_header>div .webix_selected.webix_segment_1,.webix_header>div .webix_selected.webix_segment_N {
+    margin-left:0;
+    border-left:none
+}
+.webix_header>div .webix_img_btn:active,.webix_header>div .webix_img_btn_top:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_header>div .webix_img_btn:focus,.webix_header>div .webix_img_btn_top:focus {
+    background-color:#2489cc
+}
+.webix_header>div .webix_img_btn:hover,.webix_header>div .webix_img_btn_top:hover {
+    background-color:#268fd5
+}
+.webix_header>div .webix_icon_button {
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px
+}
+.webix_header>div .webix_el_icon,.webix_header>div .webix_icon_btn,.webix_header>div .webix_icon_button,.webix_header>div .webix_img_btn,.webix_header>div .webix_img_btn_abs,.webix_header>div .webix_img_btn_abs .webix_icon,.webix_header>div .webix_img_btn_abs .webix_img_btn_text,.webix_header>div .webix_img_btn_top .webix_icon,.webix_header>div .webix_img_btn_top .webix_img_btn_text {
+    color:#fff
+}
+.webix_header>div .webix_el_box .webix_img_btn_abs:active {
+    background-color:#2489cc;
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.webix_header>div .webix_el_icon .webix_icon_button:focus {
+    background-color:rgba(0,0,0,.07)
+}
+.webix_header>div .webix_el_box .webix_img_btn_abs:hover,.webix_header>div .webix_el_icon .webix_icon_button:hover {
+    background-color:rgba(0,0,0,.05)
+}
+.webix_header>div .webix_control {
+    border-color:#3498db
+}
+.webix_header>div .webix_icon_button .webix_icon {
+    font-size:23px;
+    height:27px;
+    width:27px;
+    color:#fff
+}
+.webix_header>div .webix_img_btn,.webix_header>div .webix_img_btn_top {
+    border-width:0
+}

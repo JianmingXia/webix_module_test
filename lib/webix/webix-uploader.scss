@@ -1,0 +1,15 @@
+.webix_el_button .webix_hidden_upload,.webix_hidden_upload {
+    height:1px;
+    width:1px;
+    border:0!important;
+    font-size:1px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1
+}
+.webix_upload_client,.webix_upload_error,.webix_upload_server {
+    width:60px;
+    text-align:center;
+    float:right
+}

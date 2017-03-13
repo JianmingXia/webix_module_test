@@ -1,0 +1,74 @@
+.webix_list .webix_list_item.webix_selected {
+    border-bottom:1px solid #ebebeb;
+    padding:2px 10px
+}
+.webix_icon {
+    display:inline-block;
+    font-family:'Microsoft YaHei',FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0,0)
+}
+.webix_icon {
+    font-size:17px;
+    display:inline-block;
+    width:20px
+}
+.icon-square-o:before {
+    content: "\e615";
+}
+.icon-check-square:before {
+    content: "\e61a";
+}
+.webix_multilist .icon-check-square {
+    color: #3498db;
+}
+.webix_multicombo .webix_inp_static {
+    padding:0 3px
+}
+.webix_el_text .webix_multicombo_input {
+    background-color:transparent;
+    border:0;
+    float:left;
+    vertical-align:middle;
+    padding:0;
+    color:#666;
+    font-size:14px;
+    font-family:'Microsoft YaHei','PT Sans',Tahoma;
+    margin-left:7px
+}
+.webix_el_text .webix_multicombo_input:focus {
+    border:0;
+    box-shadow:none
+}
+.webix_multicombo_listbox {
+    width:auto;
+    line-height:1;
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.webix_multicombo_tag,.webix_multicombo_value {
+    padding:0 5px 0 7px;
+    background-color:#f2f2f2;
+    display:inline-block;
+    margin:3px;
+    float:left;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px
+}
+.webix_multicombo_tag {
+    min-width:15px;
+    text-align:center;
+    padding:0 5px
+}
+.webix_multicombo_delete {
+    margin-left:10px;
+    padding:0 5px;
+    color:#404040;
+    cursor:pointer
+}

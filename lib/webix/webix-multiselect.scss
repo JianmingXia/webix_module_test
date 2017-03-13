@@ -1,0 +1,28 @@
+.webix_list .webix_list_item.webix_selected {
+    border-bottom:1px solid #ebebeb;
+    padding:2px 10px
+}
+.webix_icon {
+    display:inline-block;
+    font-family:'Microsoft YaHei',FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0,0)
+}
+.webix_icon {
+    font-size:17px;
+    display:inline-block;
+    width:20px
+}
+.icon-square-o:before {
+    content: "\e615";
+}
+.icon-check-square:before {
+    content: "\e61a";
+}
+.webix_multilist .icon-check-square {
+    color: #3498db;
+}

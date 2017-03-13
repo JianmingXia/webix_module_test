@@ -1,0 +1,68 @@
+.webix_el_group {
+    height:100%;
+    white-space:nowrap
+}
+.webix_el_radio .webix_inp_label {
+    line-height:normal!important;
+    padding-top:6.5px
+}
+.webix_inp_radio_border input {
+    margin:0;
+    padding:0;
+    float:left
+}
+.webix_custom_radio {
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.webix_radio_option {
+    display:table;
+    float:left;
+    height:32px;
+    margin-right:20px
+}
+.webix_el_radio .webix_label_right,.webix_inp_radio_border {
+    display:table-cell;
+    vertical-align:middle
+}
+.webix_invalid .webix_custom_radio {
+    background-color:#fff6f6;
+    border-color:#fea5a8
+}
+.webix_el_radio .webix_custom_radio:before {
+    content:" ";
+    background-color:#fff
+}
+.webix_el_radio .webix_radio_1 .webix_custom_radio:before {
+    content:" ";
+    border-radius:50%;
+    display:block;
+    width:7px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    height:7px;
+    background-color:#3498db
+}
+.webix_el_radio .webix_custom_radio {
+    display:block;
+    height:15px;
+    width:15px;
+    padding:3px;
+    border:1px solid #ccc;
+    border-radius:50%;
+    background-color:#fff
+}
+.webix_el_radio .webix_custom_radio:focus {
+    border-color:#3498db
+}
+.webix_el_radio .webix_label_right {
+    color:#666;
+    font-size:14px
+}
+a:active .webix_custom_radio,a:focus .webix_custom_radio {
+    border:1px solid #3498db;
+    box-shadow:0 0 1px #3498db inset
+}

@@ -1,0 +1,60 @@
+.webix_list_group {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:2px 0px;
+    line-height:29px;
+    border-bottom:1px solid #ebebeb;
+    text-align:left;
+    border-color:#ebebeb;
+    font-weight: bold;
+}
+.webix_list_item {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:2px 10px;
+    line-height:29px;
+    cursor:pointer;
+    border-bottom:1px solid #ebebeb;
+    text-align:left;
+    border-color:#ebebeb
+}
+.webix_list_item.webix_invalid {
+    background-color:#fee
+}
+.webix_list_item.webix_selected {
+    color:#fff;
+    background:#27ae60
+}
+.webix_multilist .webix_selected {
+    background:#f2f2f2;
+    color:#666
+}
+.webix_list .webix_list_item.webix_selected {
+    border-bottom:1px solid #ebebeb;
+    padding:2px 10px
+}
+.webix_scroll_cont {
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    clear:both
+}
+.webix_selected {
+    background:#27ae60;
+    color:#fff
+}
+
+.icon-film:before {
+    content: "\f008";
+}
+
+.icon-search:before
+{
+    content:"\e617"
+}
+
+.webix_list_item:hover{
+    background-color:#EDF4FD;
+}
