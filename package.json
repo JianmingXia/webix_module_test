@@ -31,5 +31,8 @@
   },
   "peerDependencies": {
     "node-sass": "^3.7.0"
+  },
+  "scripts": {
+    "dev": "webpack --watch --config ./webpack.config.dev.js"
   }
 }
