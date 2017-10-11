@@ -29,7 +29,10 @@
     position:absolute;
     top:0;
     left:0;
-    z-index:20
+    z-index:20;
+    background-color: #000;
+    filter: alpha(opacity=20);
+    opacity: .2;
 }
 .webix_progress_icon .webix_progress_state {
     font-family:'Microsoft YaHei',FontAwesome;

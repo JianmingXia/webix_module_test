@@ -1,10 +1,10 @@
 .webix_view {
     font-family:'Microsoft YaHei','PT Sans',Tahoma;
     font-size:14px;
-    color:#414E67;
+    color:#333;
     cursor:default;
     overflow:hidden;
-    border:0 solid #ddd;
+    border:0 solid #efefef;
     background-color:#fff;
     white-space:normal;
     -webkit-appearance:none
@@ -63,7 +63,7 @@ body.webix_full_screen {
 
 .webixtype_base
 {
-	background:#3393e7;
+	background:#4285f4;
 	color:#fff;
 	font-size:14px;
 	font-family:'Microsoft YaHei','PT Sans',Tahoma;
@@ -202,7 +202,7 @@ body.webix_full_screen {
     position:absolute;
     z-index:2;
     overflow:visible;
-    background:#fff
+    background:#fff;
 }
 .webix_dt_editor input,.webix_dt_editor select {
     width:100%;
@@ -227,21 +227,22 @@ body.webix_full_screen {
     padding-left:5px
 }
 .webix_view .webix_dt_editor input,.webix_view .webix_dt_editor select {
-    border:1px solid #3498db
+    border:1px solid #4285f4;
 }
 
 .webix_el_label a,
 .webix_dtable a,
 .webix_tooltip a,
+.webix_tips a,
 .webix_qunzu
 {
     text-decoration: none;
-    color: #337ab7;
+    color: #4285f4;
 }
 .webix_delete a
 {
     text-decoration: none;
-    color: #FF0000;
+    color: #fe3824;
 }
 .webix_point_bottom,.webix_point_left,.webix_point_right,.webix_point_top {
     position:absolute
@@ -257,15 +258,22 @@ body.webix_full_screen {
 .webix_point_bottom,.webix_point_left,.webix_point_right,.webix_point_top {
     background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAArCAIAAADHSy4DAAAABnRSTlMAAAAAAABupgeRAAAACXBIWXMAAABPAAAATwFjiv3XAAAAhElEQVR4nMXVQQoAIQhAUe9/FC/pLAYayUm/EeT6YWGmoqpWharKG7n+XK5nt9L/LurMeV27oZHrReN0M6Oupr5S1GU0vhN1J7L27hp1QYXX1WtE5UxnNXI0ep7+pEGRpr95ooWObbXUm1npXWkFaF3vTqj9c+h8pVOb7gK6Yeje4tvwARi4FgcAh2V/AAAAAElFTkSuQmCC)
 }
+
 .webix_point_top {
     background-position:0 -36px
 }
+
 .webix_point_bottom {
     background-position:0 0
 }
+
 .webix_point_right {
     background-position:0 -22px
 }
+
 .webix_point_left {
     background-position:0 -9px
 }
+
+.webix_invalid .webix_custom_radio,.webix_invalid .webix_el_box .webix_inp_static,.webix_invalid .webix_el_box input,.webix_invalid .webix_el_box select,.webix_invalid .webix_el_box textarea,input.webix_invalid,select.webix_invalid,textarea.webix_invalid{background-color:#fff6f6;border-color:#fea5a8}
+.webix_invalid .webix_inp_bottom_label{font-size:13px;color:#fd595f}

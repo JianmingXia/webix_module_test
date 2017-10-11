@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "",
-  "scripts": {},
   "Dependencies": {},
+  "scripts": {
+    "dev": "webpack --watch --environment dev",
+    "test": "webpack --environment dev"
+  },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-core": "^5.8.23",
@@ -20,6 +23,7 @@
     "jade-loader": "^0.8.0",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "yargs": "^6.3.0"
@@ -31,8 +35,5 @@
   },
   "peerDependencies": {
     "node-sass": "^3.7.0"
-  },
-  "scripts": {
-    "dev": "webpack --watch --config ./webpack.config.dev.js"
   }
 }

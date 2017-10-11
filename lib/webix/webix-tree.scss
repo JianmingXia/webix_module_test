@@ -1,5 +1,5 @@
 .webix_tree .webix_scroll_cont>.webix_tree_leaves {
-    padding:9px 5px 9px 5px;
+    padding:9px 10px 9px 0px;
     -moz-user-select:none;
     -webkit-user-select:none;
     user-select:none;
@@ -130,7 +130,7 @@
 }
 
 .webix_tree_item:hover{
-    background-color:#EDF4FD;
+    background-color:#f2f3f5;
 }
 
 .webix_tree_item.webix_right_selected {

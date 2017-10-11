@@ -58,3 +58,26 @@
 .webix_list_item:hover{
     background-color:#EDF4FD;
 }
+
+.webix_list-x .webix_list_item {
+	display:inline-block;
+	vertical-align:top;
+	border-right:1px solid #ebebeb;
+	border-bottom:none;
+	border-color:#ebebeb
+}
+
+.webix_list-x .webix_list_item.webix_selected {
+	border-left:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+	padding-left:9px
+}
+
+.webix_list-x .webix_scroll_cont {
+	display:inline
+}
+
+.webix_view.webix_list-x {
+	white-space:nowrap;
+    background-color:#f2f3f5;
+}

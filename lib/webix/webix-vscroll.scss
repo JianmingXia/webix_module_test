@@ -43,7 +43,7 @@
 .webix_c_scroll_y {
     position:absolute;
     z-index:3;
-    width:5px;
+    width:10px;
     right:0
 }
 .webix_c_scroll_y>div {
@@ -51,16 +51,14 @@
     -webkit-transition:width .3s .2s,margin .3s .2s;
     -o-transition:width .3s .2s,margin .3s .2s;
     -ms-transition:width .3s .2s,margin .3s .2s;
-    width:4px;
+    width:10px;
     height:100%;
     background-color:silver;
-    background:rgba(0,0,0,.4);
-    border-radius:4px;
-    margin:0 3px
+    background:rgba(0,0,0,.2);
 }
-.webix_c_scroll_y.webix_scroll_active div,.webix_c_scroll_y:hover>div {
-    width:5px;
-    margin:0
+.webix_c_scroll_y.webix_scroll_active div {
+    width: 10px;
+    margin: 0 5px 0 0;
 }
 .webix_c_scroll_x {
     position:absolute;

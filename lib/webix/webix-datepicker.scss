@@ -2,7 +2,7 @@
     outline:0
 }
 .webix_inp_static {
-    border:1px solid #ddd;
+    border:1px solid #e5e5e5;
     background:#fff;
     overflow:hidden;
     padding:0 10px;
@@ -13,7 +13,7 @@
     float:left
 }
 .icon-calendar:before {
-    content:"\e611"
+    content:"\e6db"
 }
 .webix_window {
     position:absolute;
@@ -71,14 +71,12 @@
     width:21px
 }
 .webix_el_datepicker span.webix_input_icon {
-    background-color:#3498db;
-    color:#fff;
-    -webkit-border-radius:0 6px 6px 0;
-    -moz-border-radius-topleft:0;
-    -moz-border-radius-bottomleft:0;
-    -moz-border-radius-topright:6px;
-    -moz-border-radius-bottomright:6px;
-    border-radius:0 6px 6px 0
+    background-color:#fff;
+    color:#4285f4;
+    margin-right: 5px;
+    margin-top: 1px;
+    border: none;
+    box-sizing: border-box;
 }
 .webix_el_datepicker input {
     -webkit-border-radius:6px;
@@ -86,8 +84,8 @@
     border-radius:6px
 }
 .webix_el_datepicker input:focus {
-    border:1px solid #3498db;
-    box-shadow:0 0 1px #3498db inset
+    border:1px solid #4285f4;
+    box-shadow:0 0 1px #4285f4 inset
 }
 .webix_el_datepicker .webix_inp_static {
     -webkit-border-radius:6px;
@@ -97,8 +95,8 @@
     white-space:nowrap
 }
 .webix_el_datepicker .webix_inp_static:focus {
-    border:1px solid #3498db;
-    box-shadow:0 0 1px #3498db inset
+    border:1px solid #4285f4;
+    box-shadow:0 0 1px #4285f4 inset
 }
 .webix_el_datepicker span.webix_input_icon {
     width:24px
